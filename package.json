@@ -1,0 +1,21 @@
+{
+  "name": "@libts/caller",
+  "version": "1.0.0",
+  "description": "__LINE__, __FUNCTION__",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "dependencies": {
+    "typescript": "^5.9.3",
+    "undici-types": "^7.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seyukun",
+  "license": "MIT"
+}
